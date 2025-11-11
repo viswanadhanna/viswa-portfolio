@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 14px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(5, 7, 11, 0.95), rgba(5, 7, 11, 0.6), transparent);
+  z-index: 100;
+  backdrop-filter: blur(16px);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #27b0ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  color: #d7deea;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #27b0ff;
+}
+.nav-links a.active {
+  color: #27b0ff;
+  font-weight: 600;
+}
