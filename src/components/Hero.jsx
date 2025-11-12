@@ -10,6 +10,7 @@ import {
 } from "../animations/presets";
 import useParallaxTilt from "../hooks/useParallaxTilt";
 import profile from "../assets/profile.jpeg";
+
 import {
   FaGithub,
   FaLinkedin,

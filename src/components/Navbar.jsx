@@ -105,14 +105,6 @@ export default function Navbar() {
               </Motion.li>
             ))}
           </Motion.ul>
-          <Motion.a
-            href="/resume"
-            className="hidden rounded-full border border-neon-cyan/70 px-5 py-2 text-sm font-semibold text-text-main shadow-glow-cyan transition duration-300 hover:bg-neon-cyan/10 hover:text-neon-cyan md:inline-flex"
-            whileHover={springHover}
-            whileFocus={springHover}
-          >
-            View Resume
-          </Motion.a>
         </div>
 
         <Motion.button
